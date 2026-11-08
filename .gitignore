@@ -1,0 +1,40 @@
+# ===== 비밀 정보 (절대 커밋 금지) =====
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+**/keys/
+**/key
+secrets/
+
+# ===== Besu 노드 데이터 =====
+**/data/
+**/database/
+
+# ===== Node.js / Hardhat =====
+node_modules/
+contracts/artifacts/
+contracts/cache/
+contracts/coverage/
+contracts/coverage.json
+contracts/typechain-types/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# ===== 에디터 / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== VM =====
+*.vdi
+*.vmdk
+*.ova
+*.iso
